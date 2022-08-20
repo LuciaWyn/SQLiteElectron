@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "postinstall": "electron-rebuild",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.11"
+  },
+  "devDependencies": {
+    "electron": "^20.0.3",
+    "electron-rebuild": "^3.2.9"
+  },
+  "name": "sqlite-electronjs",
+  "version": "1.0.0",
+  "description": "An SQLite Database connected to an electron App.",
+  "main": "main.js",
+  "keywords": [
+    "electronjs",
+    "sqlite"
+  ],
+  "author": "Lucy Wynne-Jones",
+  "license": "ISC"
+}
